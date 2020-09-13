@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">초이쓰</string>
+
+    <string name="kakao_app_key">8f2469317712dbad6ecde9663e4cae92</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ImageViewWaring">이미지가 열리지 않습니다.</string>
+</resources>
