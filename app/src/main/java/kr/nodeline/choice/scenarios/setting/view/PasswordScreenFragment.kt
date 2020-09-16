@@ -8,17 +8,17 @@ import android.view.ViewGroup
 
 import kr.nodeline.choice.R
 import kr.nodeline.choice.commons.BaseMVVM.BaseKotlinFragment
-import kr.nodeline.choice.databinding.SettingMyPaymentFragmentBinding
-import kr.nodeline.choice.databinding.SettingPasswordFragmentBinding
+import kr.nodeline.choice.databinding.PasswordScreenFragmentBinding
+import kr.nodeline.choice.databinding.SettingFragmentBinding
 import kr.nodeline.choice.scenarios.setting.viewmodel.SettingViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class SettingPasswordFragment : BaseKotlinFragment<SettingPasswordFragmentBinding, SettingViewModel>() {
+class PasswordScreenFragment : BaseKotlinFragment<PasswordScreenFragmentBinding, SettingViewModel>() {
 
-    private val TAG = "SettingPasswordFragment"
+    private val TAG = "PasswordScreenFragment"
 
     override val layoutResourceId: Int
-        get() = R.layout.setting_password_fragment
+        get() = R.layout.password_screen_fragment
     override val viewModel: SettingViewModel by viewModel()
 
     override fun initStartView() {
@@ -32,6 +32,5 @@ class SettingPasswordFragment : BaseKotlinFragment<SettingPasswordFragmentBindin
     override fun initAfterBinding() {
 
     }
-
 
 }

@@ -15,7 +15,7 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class SettingMyPaymentFragment : BaseKotlinFragment<SettingMyPaymentFragmentBinding, SettingViewModel>() {
 
-    private val TAG = "SettingFragment"
+    private val TAG = "SettingMyPaymentFragment"
 
     override val layoutResourceId: Int
         get() = R.layout.setting_my_payment_fragment
