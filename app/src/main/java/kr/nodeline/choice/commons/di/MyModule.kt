@@ -3,6 +3,9 @@ package kr.nodeline.choice.commons.di
 import kr.nodeline.choice.scenarios.choice.model.ChoiceModel
 import kr.nodeline.choice.scenarios.choice.model.ChoiceModelImpl
 import kr.nodeline.choice.scenarios.choice.viewmodel.ChoiceViewModel
+import kr.nodeline.choice.scenarios.join.model.JoinModel
+import kr.nodeline.choice.scenarios.join.model.JoinModelImpl
+import kr.nodeline.choice.scenarios.join.viewmodel.JoinViewModel
 import kr.nodeline.choice.scenarios.karaoke.model.KaraokeModel
 import kr.nodeline.choice.scenarios.karaoke.model.KaraokeModelImpl
 import kr.nodeline.choice.scenarios.karaoke.viewmodel.KaraokeViewModel
@@ -56,6 +59,9 @@ var modelPart = module {
     factory<ProfileModel> {
         ProfileModelImpl()
     }
+    factory<JoinModel> {
+        JoinModelImpl()
+    }
 }
 
 var viewModelPart = module {
@@ -83,7 +89,9 @@ var viewModelPart = module {
     viewModel {
         ProfileViewModel(get())
     }
-
+    viewModel {
+        JoinViewModel(get())
+    }
 }
 
 var myDiModule = listOf(adapterPart, modelPart, viewModelPart)

@@ -38,8 +38,6 @@ class LoginFragment : BaseKotlinFragment<LoginFragmentBinding, LoginViewModel>()
 
     var location: GPSProvider? = null
 
-
-
     var joinType = "customer"
     var loginType = "kakao"
     var accessToken = ""

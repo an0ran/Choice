@@ -24,7 +24,7 @@ class SettingFragment : BaseKotlinFragment<SettingFragmentBinding, SettingViewMo
     override val viewModel: SettingViewModel by viewModel()
 
     override fun initStartView() {
-//dddd
+
     }
 
     override fun initDataBinding() {

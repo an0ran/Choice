@@ -34,8 +34,8 @@ class LoginSelectFragment : BaseKotlinFragment<LoginSelectFragmentBinding, Login
         }
 
         btn_login_select_karaoke.setOnClickListener {
-            fragment.joinType = "karaoke"
-            fragmentManager!!.beginTransaction().replace(R.id.container_login, fragment).commit()
+            val loginKaraokeFragment = LoginKaraokeFragment()
+            fragmentManager!!.beginTransaction().replace(R.id.container_login, loginKaraokeFragment).commit()
         }
 
         btn_login_select_singer.setOnClickListener {

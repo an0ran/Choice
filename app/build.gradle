@@ -61,6 +61,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -69,8 +70,8 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
     implementation "io.reactivex.rxjava2:rxandroid:2.0.2"
     implementation "io.reactivex.rxjava2:rxkotlin:2.0.2"
-    implementation 'com.jakewharton.rxbinding:rxbinding:0.4.0'
     implementation 'com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0'
+    implementation 'com.jakewharton.rxbinding3:rxbinding:3.1.0'
 
     // retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
@@ -93,4 +94,11 @@ dependencies {
     implementation "com.kakao.sdk:v2-talk-rx:2.0.2" // 친구, 메시지(카카오톡)
     implementation "com.kakao.sdk:v2-story-rx:2.0.2" // 카카오스토리
     implementation "com.kakao.sdk:v2-link-rx:2.0.2" // 메시지(카카오링크)
+
+    // Keyboard open listener
+    implementation 'gun0912.ted:tedkeyboardobserver:1.0.0-alpha2'
+
+    // glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 }
