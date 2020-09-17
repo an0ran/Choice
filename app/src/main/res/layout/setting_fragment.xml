@@ -41,7 +41,7 @@
 
             </androidx.appcompat.widget.Toolbar>
 			 <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/tv_setting_fragment_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -64,10 +64,10 @@
                 android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView1">
+                app:layout_constraintTop_toBottomOf="@+id/tv_setting_fragment_1">
 
                  <ImageView
-                     android:id="@+id/imageView1"
+                     android:id="@+id/iv_setting_fragment_1"
                      android:layout_width="wrap_content"
                      android:layout_height="0dp"
                      android:layout_marginEnd="16dp"
@@ -77,7 +77,7 @@
                      app:layout_constraintTop_toTopOf="@+id/btn_karaoke_step1_serviceAndPersonalInfoAgree_detail" />
 
                 <TextView
-                    android:id="@+id/textView1_1"
+                    android:id="@+id/tv_setting_fragment_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -91,12 +91,12 @@
                     app:layout_constraintTop_toTopOf="parent" />
 					
             <TextView
-                android:id="@+id/btn_textView1_1_detail"
+                android:id="@+id/btn_tv_setting_fragment_2_detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="abc123"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageView1"
+                app:layout_constraintEnd_toStartOf="@+id/iv_setting_fragment_1"
                 app:layout_constraintTop_toTopOf="parent" />
 
 				</androidx.constraintlayout.widget.ConstraintLayout>
@@ -112,7 +112,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout1">
 
                  <ImageView
-                     android:id="@+id/imageView2"
+                     android:id="@+id/iv_setting_fragment_2"
                      android:layout_width="wrap_content"
                      android:layout_height="0dp"
                      android:layout_marginEnd="16dp"
@@ -122,7 +122,7 @@
                      app:layout_constraintTop_toTopOf="@+id/btn_karaoke_step1_serviceAndPersonalInfoAgree_detail" />
 
                 <TextView
-                    android:id="@+id/textView1_2"
+                    android:id="@+id/tv_setting_fragment_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -136,12 +136,12 @@
                     app:layout_constraintTop_toTopOf="parent" />
 					
             <TextView
-                android:id="@+id/btn_textView1_2_detail"
+                android:id="@+id/btn_tv_setting_fragment_3_detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="abc123"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageView2"
+                app:layout_constraintEnd_toStartOf="@+id/iv_setting_fragment_2"
                 app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 				 <androidx.constraintlayout.widget.ConstraintLayout
@@ -155,7 +155,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 				
 				<ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/iv_setting_fragment_3"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_marginEnd="16dp"				
@@ -165,7 +165,7 @@
                 app:layout_constraintTop_toTopOf="@+id/btn_karaoke_step1_serviceAndPersonalInfoAgree_detail" />
 
                 <TextView
-                    android:id="@+id/textView13"
+                    android:id="@+id/tv_setting_fragment_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -179,12 +179,12 @@
                     app:layout_constraintTop_toTopOf="parent" />
 					
             <TextView
-                android:id="@+id/btn_detail"
+                android:id="@+id/btn_tv_setting_fragment_4_detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="abc123"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                app:layout_constraintEnd_toStartOf="@+id/iv_setting_fragment_3"
                 app:layout_constraintTop_toTopOf="parent" />
 				</androidx.constraintlayout.widget.ConstraintLayout>
            
@@ -200,7 +200,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 				
 				<ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/iv_setting_fragment_4"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_marginEnd="16dp"				
@@ -210,7 +210,7 @@
                 app:layout_constraintTop_toTopOf="@+id/btn_karaoke_step1_serviceAndPersonalInfoAgree_detail" />
 
                 <TextView
-                    android:id="@+id/textView1_3"
+                    android:id="@+id/tv_setting_fragment_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -222,18 +222,19 @@
 					app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-					
+
             <TextView
-                android:id="@+id/btn_textView1_3_detail"
+                android:id="@+id/btn_setting_fragment_5_detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="abc123"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/imageView4"
+                app:layout_constraintEnd_toStartOf="@+id/iv_setting_fragment_4"
                 app:layout_constraintTop_toTopOf="parent" />
 				</androidx.constraintlayout.widget.ConstraintLayout>
- <TextView
-                android:id="@+id/textView2"
+
+			<TextView
+                android:id="@+id/tv_setting_fragment_6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -248,7 +249,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 
- <androidx.constraintlayout.widget.ConstraintLayout
+ 				<androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -256,10 +257,10 @@
                 android:background="#FFFFFF"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2">
+                app:layout_constraintTop_toBottomOf="@+id/tv_setting_fragment_6">
 				
 				<ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/iv_setting_fragment_5"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_marginEnd="16dp"				
@@ -269,7 +270,7 @@
                 app:layout_constraintTop_toTopOf="@+id/btn_karaoke_step1_serviceAndPersonalInfoAgree_detail" />
 
                 <TextView
-                    android:id="@+id/textView2_1"
+                    android:id="@+id/tv_setting_fragment_7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -283,7 +284,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
      <TextView
-         android:id="@+id/btn_textView2_1_detail"
+         android:id="@+id/btn_setting_fragment_7_detail"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginStart="16dp"
@@ -293,7 +294,7 @@
          android:textSize="10sp"
          app:layout_constraintBottom_toBottomOf="parent"
          app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toTopOf="@+id/textView2_1"/>
+         app:layout_constraintTop_toTopOf="@+id/tv_setting_fragment_7"/>
 
  </androidx.constraintlayout.widget.ConstraintLayout>
 			
@@ -319,7 +320,7 @@
                 app:layout_constraintTop_toTopOf="@+id/btn_karaoke_step1_serviceAndPersonalInfoAgree_detail" />
 
                 <TextView
-                    android:id="@+id/textView2_2"
+                    android:id="@+id/tv_setting_fragment_8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -334,7 +335,7 @@
                     />
 					
             <TextView
-                android:id="@+id/btn_textView2_2_detail"
+                android:id="@+id/btn_setting_fragment_8_detail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -344,7 +345,7 @@
                 android:textSize="10sp"
                      app:layout_constraintBottom_toBottomOf="parent"
                      app:layout_constraintStart_toStartOf="parent"
-                     app:layout_constraintTop_toTopOf="@+id/textView2_2"/>
+                     app:layout_constraintTop_toTopOf="@+id/tv_setting_fragment_8"/>
 				</androidx.constraintlayout.widget.ConstraintLayout>
 				 <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout11"
@@ -357,7 +358,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout10">
 				
 				<ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/iv_setting_fragment_6"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_marginEnd="16dp"				
@@ -367,7 +368,7 @@
                 app:layout_constraintTop_toTopOf="@+id/btn_karaoke_step1_serviceAndPersonalInfoAgree_detail" />
 
                 <TextView
-                    android:id="@+id/textView2_3"
+                    android:id="@+id/tv_setting_fragment_9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -380,6 +381,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />					
             	</androidx.constraintlayout.widget.ConstraintLayout>
+
 				 <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constraintLayout12"
                 android:layout_width="match_parent"
@@ -391,17 +393,16 @@
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout11">
 				
 				<ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="wrap_content"
+                android:id="@+id/iv_setting_fragment_7"
+					android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_marginEnd="16dp"				
                 android:src="@drawable/baseline_keyboard_arrow_right_black_18dp"
-                app:layout_constraintBottom_toBottomOf="@+id/btn_karaoke_step1_serviceAndPersonalInfoAgree_detail"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/btn_karaoke_step1_serviceAndPersonalInfoAgree_detail" />
+                app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/textView2_3"
+                    android:id="@+id/tv_setting_fragment_10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
