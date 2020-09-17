@@ -22,7 +22,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".scenarios.setting.SettingActivity"></activity>
+        <activity
+            android:name=".scenarios.join.JoinActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".scenarios.setting.SettingActivity" />
         <activity android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -36,7 +39,7 @@
                     android:scheme="kakao8f2469317712dbad6ecde9663e4cae92" />
             </intent-filter>
         </activity>
-        <activity android:name=".scenarios.login.LoginActivity"></activity>
+        <activity android:name=".scenarios.login.LoginActivity" />
         <activity
             android:name=".scenarios.splash.SplashActivity"
             android:noHistory="true"
@@ -48,7 +51,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".scenarios.main.MainActivity" />
+        <activity
+            android:name=".scenarios.main.MainActivity"
+            android:windowSoftInputMode="adjustResize" />
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
